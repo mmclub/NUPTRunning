@@ -15,6 +15,9 @@
 		C54257141ABA5B3300B33775 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C54257131ABA5B3300B33775 /* Images.xcassets */; };
 		C54257171ABA5B3300B33775 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C54257151ABA5B3300B33775 /* LaunchScreen.xib */; };
 		C54257231ABA5B3400B33775 /* runningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C54257221ABA5B3400B33775 /* runningTests.m */; };
+		C542572E1ABA655900B33775 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C542572D1ABA655900B33775 /* AboutViewController.m */; };
+		C54257301ABA669200B33775 /* RunningTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C542572F1ABA669200B33775 /* RunningTableCell.xib */; };
+		C54257331ABA66C200B33775 /* RunningTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C54257321ABA66C200B33775 /* RunningTableCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,11 @@
 		C542571C1ABA5B3400B33775 /* runningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = runningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C54257211ABA5B3400B33775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C54257221ABA5B3400B33775 /* runningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = runningTests.m; sourceTree = "<group>"; };
+		C542572C1ABA655900B33775 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		C542572D1ABA655900B33775 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		C542572F1ABA669200B33775 /* RunningTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RunningTableCell.xib; sourceTree = "<group>"; };
+		C54257311ABA66C200B33775 /* RunningTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunningTableCell.h; sourceTree = "<group>"; };
+		C54257321ABA66C200B33775 /* RunningTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunningTableCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +99,11 @@
 				C542570D1ABA5B3300B33775 /* SecondViewController.h */,
 				C542570E1ABA5B3300B33775 /* SecondViewController.m */,
 				C54257101ABA5B3300B33775 /* Main.storyboard */,
+				C542572F1ABA669200B33775 /* RunningTableCell.xib */,
+				C54257311ABA66C200B33775 /* RunningTableCell.h */,
+				C54257321ABA66C200B33775 /* RunningTableCell.m */,
+				C542572C1ABA655900B33775 /* AboutViewController.h */,
+				C542572D1ABA655900B33775 /* AboutViewController.m */,
 				C54257131ABA5B3300B33775 /* Images.xcassets */,
 				C54257151ABA5B3300B33775 /* LaunchScreen.xib */,
 				C54257031ABA5B3300B33775 /* Supporting Files */,
@@ -206,6 +219,7 @@
 			files = (
 				C54257121ABA5B3300B33775 /* Main.storyboard in Resources */,
 				C54257171ABA5B3300B33775 /* LaunchScreen.xib in Resources */,
+				C54257301ABA669200B33775 /* RunningTableCell.xib in Resources */,
 				C54257141ABA5B3300B33775 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,8 +239,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C542570F1ABA5B3300B33775 /* SecondViewController.m in Sources */,
+				C542572E1ABA655900B33775 /* AboutViewController.m in Sources */,
 				C54257091ABA5B3300B33775 /* AppDelegate.m in Sources */,
 				C542570C1ABA5B3300B33775 /* FirstViewController.m in Sources */,
+				C54257331ABA66C200B33775 /* RunningTableCell.m in Sources */,
 				C54257061ABA5B3300B33775 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
