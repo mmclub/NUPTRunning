@@ -108,18 +108,27 @@
                                 <state key="normal" title="觉得不错，不分享下？">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="shareAppButtonClick:" destination="sdi-Qx-hQN" eventType="touchUpInside" id="L4L-l3-fMw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bcv-cT-YPn">
                                 <rect key="frame" x="115" y="269" width="90" height="30"/>
                                 <state key="normal" title="向作者吐槽？">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="tucaoButtonClick:" destination="sdi-Qx-hQN" eventType="touchUpInside" id="12u-EJ-Mgh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ER-Nt-jII">
                                 <rect key="frame" x="107" y="325" width="119" height="30"/>
                                 <state key="normal" title="访问MMClub官网">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="visitWebsiteButtonClick:" destination="sdi-Qx-hQN" eventType="touchUpInside" id="APf-aE-Cgl"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

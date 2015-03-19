@@ -10,4 +10,8 @@
 
 @interface AboutViewController : UIViewController
 
+- (IBAction)shareAppButtonClick:(UIButton *)sender;
+- (IBAction)tucaoButtonClick:(UIButton *)sender;
+- (IBAction)visitWebsiteButtonClick:(UIButton *)sender;
+
 @end

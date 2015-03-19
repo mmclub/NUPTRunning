@@ -7,6 +7,7 @@
 //
 
 #import "AboutViewController.h"
+#import "SNS.h"
 
 @interface AboutViewController ()
 
@@ -33,5 +34,17 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (IBAction)shareAppButtonClick:(UIButton *)sender {
+    [SNS shareWithURLString:@"http://www.nupter.org" title:@"查询早跑App"];
+}
+
+- (IBAction)tucaoButtonClick:(UIButton *)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"sms:13260715825"]];
+}
+
+- (IBAction)visitWebsiteButtonClick:(UIButton *)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.nupter.org"]];
+}
 
 @end
