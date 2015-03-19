@@ -1,0 +1,87 @@
+PODS:
+  - AFNetworking (2.5.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.5.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.1)
+  - AFNetworking/Security (2.5.1)
+  - AFNetworking/Serialization (2.5.1)
+  - AFNetworking/UIKit (2.5.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AVOSCloud (2.6.10.2)
+  - ShareSDK/Copy (2.10.6):
+    - ShareSDK/Core
+  - ShareSDK/Core (2.10.6)
+  - ShareSDK/Lite (2.10.6):
+    - ShareSDK/Copy
+    - ShareSDK/Mail
+    - ShareSDK/QQConnect
+    - ShareSDK/QZone
+    - ShareSDK/WeChat
+    - ShareSDK/Weibo
+  - ShareSDK/Mail (2.10.6):
+    - ShareSDK/Core
+  - ShareSDK/QQConnect (2.10.6):
+    - ShareSDK/Core
+  - ShareSDK/QZone (2.10.6):
+    - ShareSDK/QQConnect
+  - ShareSDK/SinaWeibo (2.10.6):
+    - ShareSDK/Core
+  - ShareSDK/TencentWeibo (2.10.6):
+    - ShareSDK/Core
+  - ShareSDK/UI (2.10.6):
+    - ShareSDK/UI/Full
+  - ShareSDK/UI/Flat (2.10.6)
+  - ShareSDK/UI/Full (2.10.6):
+    - ShareSDK/UI/Flat
+    - ShareSDK/UI/iPadDefault
+    - ShareSDK/UI/iPadSimple
+    - ShareSDK/UI/iPhoneAppRecommend
+    - ShareSDK/UI/iPhoneDefault
+    - ShareSDK/UI/iPhoneSimple
+    - ShareSDK/UI/ShareActionSheet
+  - ShareSDK/UI/iPadDefault (2.10.6)
+  - ShareSDK/UI/iPadSimple (2.10.6)
+  - ShareSDK/UI/iPhoneAppRecommend (2.10.6)
+  - ShareSDK/UI/iPhoneDefault (2.10.6)
+  - ShareSDK/UI/iPhoneSimple (2.10.6)
+  - ShareSDK/UI/ShareActionSheet (2.10.6)
+  - ShareSDK/WeChat (2.10.6):
+    - ShareSDK/Core
+  - ShareSDK/Weibo (2.10.6):
+    - ShareSDK/Core
+    - ShareSDK/SinaWeibo
+    - ShareSDK/TencentWeibo
+    - ShareSDK/UI
+  - UITextField+Shake (0.4)
+
+DEPENDENCIES:
+  - AFNetworking
+  - AVOSCloud (~> 2.6.10.2)
+  - ShareSDK/Lite (from `https://github.com/jcccn/ShareSDK-iOS.git`)
+  - ShareSDK/UI/Flat (from `https://github.com/jcccn/ShareSDK-iOS.git`)
+  - UITextField+Shake (~> 0.4)
+
+EXTERNAL SOURCES:
+  ShareSDK:
+    :git: https://github.com/jcccn/ShareSDK-iOS.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 8bee59492a6ff15d69130efa4d0dc67e0094a52a
+  AVOSCloud: 903429163bce9feabb4473ab07ea30ed47ba5db1
+  ShareSDK: 57bc006a6032460ece2994811bdb114bacf47921
+  UITextField+Shake: d98b471f0f686021795a8797aeec3658d12fdae2
+
+COCOAPODS: 0.34.1

@@ -64,7 +64,6 @@
     
     
     cell.textLabel.text = [_dateArray objectAtIndex:indexPath.row];
-    cell.
     return cell;
     
     
