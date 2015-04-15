@@ -65,6 +65,7 @@ PODS:
     - ShareSDK/SinaWeibo
     - ShareSDK/TencentWeibo
     - ShareSDK/UI
+  - SVProgressHUD (1.1.2)
   - UITextField+Shake (0.4)
 
 DEPENDENCIES:
@@ -72,6 +73,7 @@ DEPENDENCIES:
   - AVOSCloud (~> 2.6.10.2)
   - ShareSDK/Lite (from `https://github.com/jcccn/ShareSDK-iOS.git`)
   - ShareSDK/UI/Flat (from `https://github.com/jcccn/ShareSDK-iOS.git`)
+  - SVProgressHUD
   - UITextField+Shake (~> 0.4)
 
 EXTERNAL SOURCES:
@@ -82,6 +84,7 @@ SPEC CHECKSUMS:
   AFNetworking: 8bee59492a6ff15d69130efa4d0dc67e0094a52a
   AVOSCloud: 903429163bce9feabb4473ab07ea30ed47ba5db1
   ShareSDK: 57bc006a6032460ece2994811bdb114bacf47921
+  SVProgressHUD: da7a49e789af645d9279ffbca62318945a832438
   UITextField+Shake: d98b471f0f686021795a8797aeec3658d12fdae2
 
 COCOAPODS: 0.34.1

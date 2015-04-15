@@ -18,16 +18,29 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="ADD-SC-LWR">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                                <rect key="frame" x="0.0" y="100" width="320" height="419"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="本学期你已经跑步？次" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xh2-7Q-1hI">
+                                <rect key="frame" x="23" y="37" width="281" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="Dp4-Dh-V3A"/>
+                                    <constraint firstAttribute="width" constant="281" id="Lv4-DO-Ful"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="Xh2-7Q-1hI" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="7" id="3sm-JF-BhC"/>
                             <constraint firstItem="ADD-SC-LWR" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="-16" id="Kej-tq-23c"/>
                             <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="ADD-SC-LWR" secondAttribute="bottom" id="OTL-6M-WG4"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ADD-SC-LWR" secondAttribute="trailing" constant="-16" id="Wq2-LU-wbW"/>
-                            <constraint firstItem="ADD-SC-LWR" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="-20" id="bme-eR-RSq"/>
+                            <constraint firstItem="Xh2-7Q-1hI" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="17" id="Y82-Td-diX"/>
+                            <constraint firstItem="ADD-SC-LWR" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="80" id="bme-eR-RSq"/>
+                            <constraint firstItem="Xh2-7Q-1hI" firstAttribute="trailing" secondItem="tsR-hK-woN" secondAttribute="trailingMargin" id="e3c-p2-YFN"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>

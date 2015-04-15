@@ -19,6 +19,7 @@
 		C54257301ABA669200B33775 /* RunningTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C542572F1ABA669200B33775 /* RunningTableCell.xib */; };
 		C54257331ABA66C200B33775 /* RunningTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C54257321ABA66C200B33775 /* RunningTableCell.m */; };
 		C54257361ABAB3F400B33775 /* SNS.m in Sources */ = {isa = PBXBuildFile; fileRef = C54257351ABAB3F400B33775 /* SNS.m */; };
+		C5BE8B6F1AC04A8F00F40099 /* Response.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BE8B6E1AC04A8F00F40099 /* Response.m */; };
 		CBB41A5EB4C402B436CC658C /* libPods-running.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB24FCB9EE93F71471E2A464 /* libPods-running.a */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,9 @@
 		C54257321ABA66C200B33775 /* RunningTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunningTableCell.m; sourceTree = "<group>"; };
 		C54257341ABAB3F400B33775 /* SNS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNS.h; sourceTree = "<group>"; };
 		C54257351ABAB3F400B33775 /* SNS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNS.m; sourceTree = "<group>"; };
+		C5BE8B6C1AC0479B00F40099 /* Constraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constraint.h; sourceTree = "<group>"; };
+		C5BE8B6D1AC04A8F00F40099 /* Response.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Response.h; sourceTree = "<group>"; };
+		C5BE8B6E1AC04A8F00F40099 /* Response.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Response.m; sourceTree = "<group>"; };
 		EB24FCB9EE93F71471E2A464 /* libPods-running.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-running.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -119,12 +123,15 @@
 		C54257021ABA5B3300B33775 /* running */ = {
 			isa = PBXGroup;
 			children = (
+				C5BE8B6D1AC04A8F00F40099 /* Response.h */,
+				C5BE8B6E1AC04A8F00F40099 /* Response.m */,
 				C54257341ABAB3F400B33775 /* SNS.h */,
 				C54257351ABAB3F400B33775 /* SNS.m */,
 				C54257071ABA5B3300B33775 /* AppDelegate.h */,
 				C54257081ABA5B3300B33775 /* AppDelegate.m */,
 				C542570A1ABA5B3300B33775 /* FirstViewController.h */,
 				C542570B1ABA5B3300B33775 /* FirstViewController.m */,
+				C5BE8B6C1AC0479B00F40099 /* Constraint.h */,
 				C542570D1ABA5B3300B33775 /* SecondViewController.h */,
 				C542570E1ABA5B3300B33775 /* SecondViewController.m */,
 				C54257101ABA5B3300B33775 /* Main.storyboard */,
@@ -306,6 +313,7 @@
 				C542572E1ABA655900B33775 /* AboutViewController.m in Sources */,
 				C54257091ABA5B3300B33775 /* AppDelegate.m in Sources */,
 				C54257361ABAB3F400B33775 /* SNS.m in Sources */,
+				C5BE8B6F1AC04A8F00F40099 /* Response.m in Sources */,
 				C542570C1ABA5B3300B33775 /* FirstViewController.m in Sources */,
 				C54257331ABA66C200B33775 /* RunningTableCell.m in Sources */,
 				C54257061ABA5B3300B33775 /* main.m in Sources */,
